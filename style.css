@@ -1,0 +1,77 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#container {
+    display: flex;
+    height: 80vh;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+#login-form {
+    flex: 1;
+    background-color: #f3f4f6;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+#login-form h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+#login-form p {
+    color: #5e636e;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+#login-form label {
+    display: block;
+    margin-top: 8px;
+    font-weight: 700;
+}
+
+#login-form input {
+    width: 100%;
+    font-size: 14px;
+    padding: 12px 0px;
+    margin-top: 10px;
+}
+
+
+#login-form button {
+    width: 100%;
+    background-color: #2563eb;
+    color: #fff;
+    border: none;
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 12px;
+    padding: 12px 0px;
+}
+
+#login-form button:hover{
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+#forgot {
+    display: block;
+    text-align: right;
+    margin-top: 12px;
+    font-size: 14px;
+    color: #2563eb;
+    text-decoration: none;
+}
+
+#forgot:hover {
+    text-decoration: underline;
+}
+
+img {
+    width: 800px;
+    height: 600px;
+}
